@@ -1,0 +1,1422 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"con",
+				"conditions"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"local",
+				"localhost"
+			],
+			[
+				"jso",
+				"json_decode"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"aram",
+				"array_merge"
+			],
+			[
+				"_get",
+				"_getPayment"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"p",
+				"pid"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"but",
+				"button	Tag"
+			],
+			[
+				"clas",
+				"class	Attr"
+			],
+			[
+				"cl",
+				"class	Attr"
+			],
+			[
+				"ite",
+				"item"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"jQ",
+				"jQuery"
+			],
+			[
+				"reqi",
+				"requestInsertData"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"fi",
+				"fieldset	Tag"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"reu",
+				"request"
+			],
+			[
+				"Credit",
+				"CreditRequests"
+			],
+			[
+				"ngc",
+				"ng-cloak	AngularJS"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"che",
+				"checkbox"
+			],
+			[
+				"col",
+				"col-xs-10"
+			],
+			[
+				"en",
+				"enableLabel"
+			],
+			[
+				"inp",
+				"inputOptions"
+			],
+			[
+				"asse",
+				"assets"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"inpt",
+				"input"
+			],
+			[
+				"cat",
+				"catids"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pub",
+				"public"
+			],
+			[
+				"order",
+				"ordering"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"la",
+				"lastBet"
+			],
+			[
+				"mysql_fetch_",
+				"mysql_fetch_assoc"
+			],
+			[
+				"cons",
+				"console.	console.log()"
+			],
+			[
+				"sc",
+				"screen1"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"mysql_e",
+				"mysql_error"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"alt",
+				"alt	Attr"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"sms",
+				"sms_text"
+			],
+			[
+				"_",
+				"__construct"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"ul",
+				"url"
+			],
+			[
+				"phi",
+				"phpinfo"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"clic",
+				"clickBlock"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"sli",
+				"slideToggle"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"pae",
+				"parents"
+			],
+			[
+				"ara",
+				"array"
+			],
+			[
+				"sessio",
+				"session_id"
+			],
+			[
+				"b",
+				"blockId"
+			],
+			[
+				"block",
+				"block_id"
+			],
+			[
+				"ksl_b",
+				"ksl_block_display_statistic"
+			],
+			[
+				"se",
+				"session_id"
+			],
+			[
+				"ses",
+				"session_destroy"
+			],
+			[
+				"$f",
+				"$from"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"prnt",
+				"print_r"
+			],
+			[
+				"clo",
+				"close"
+			],
+			[
+				"getP",
+				"getProperties"
+			],
+			[
+				"basc",
+				"basic_price"
+			],
+			[
+				"s",
+				"success"
+			],
+			[
+				"ff",
+				"FFF"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"Roi",
+				"plgRoistat"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"ro",
+				"roistat"
+			],
+			[
+				"pr",
+				"project"
+			],
+			[
+				"sys",
+				"system"
+			],
+			[
+				"is",
+				"is_array"
+			],
+			[
+				"reg",
+				"region_id"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"date",
+				"date_add"
+			],
+			[
+				"stru",
+				"strtoupper"
+			],
+			[
+				"ja",
+				"javascript"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"fileg",
+				"file_get_contents"
+			],
+			[
+				"publi",
+				"published"
+			],
+			[
+				"commen",
+				"comment"
+			],
+			[
+				"a",
+				"avoid"
+			],
+			[
+				"page",
+				"page-break-inside"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"java",
+				"javascript:void(0);	javascriptVoid"
+			],
+			[
+				"get",
+				"getLayout"
+			],
+			[
+				"bas",
+				"base64_decode"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"cr",
+				"cursor"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"ins",
+				"install"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"fil",
+				"file"
+			],
+			[
+				"escap",
+				"escape"
+			],
+			[
+				"pro",
+				"product"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"comp",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"php",
+				"Format: Php"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"Snippet: GET['…']"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/OpenServer/domains/projects/e-produce/ekimov/citibank"
+	],
+	"file_history":
+	[
+		"/C/OpenServer/domains/projects/e-produce/ekimov/citibank/src/parts/footer.html",
+		"/C/OpenServer/domains/projects/e-produce/ekimov/citibank/src/parts/header.html",
+		"/C/OpenServer/domains/projects/e-produce/ekimov/lenta/src/index.html",
+		"/C/Users/kirillbereza/AppData/Local/Temp/Rar$DIa0.671/styles.css",
+		"/C/OpenServer/domains/projects/e-produce/ekimov/citibank/src/assets/css/styles.css",
+		"/C/Users/kirillbereza/AppData/Local/Temp/Rar$DIa0.566/styles.css",
+		"/C/OpenServer/domains/projects/e-produce/ekimov/citibank/Gruntfile.js",
+		"/C/OpenServer/domains/projects/larek.kg/administrator/components/com_ksenmart/helpers/common/simalend.php",
+		"/C/OpenServer/domains/projects/larek.kg/tmp/plg_export_simalend/export_simalend.php",
+		"/C/OpenServer/domains/projects/larek.kg/tmp/plg_export_simalend/install.php",
+		"/C/OpenServer/domains/projects/larek.kg/tmp/plg_export_simalend/export_simalend.xml",
+		"/C/OpenServer/domains/projects/larek.kg/tmp/plg_export_simalend/languages/en-GB/en-GB.plg_kmexportimport_export_simalend.sys.ini",
+		"/C/OpenServer/domains/projects/larek.kg/tmp/plg_export_simalend/languages/ru-RU/ru-RU.plg_kmexportimport_export_simalend.sys.ini",
+		"/C/OpenServer/domains/projects/larek.kg/plugins/kmexportimport/export_simalend/export_simalend.php",
+		"/C/OpenServer/domains/projects/larek.kg/administrator/language/ru-RU/ru-RU.plg_kmexportimport_export_simalend.sys.ini",
+		"/C/OpenServer/domains/projects/renderRectangle/index.php",
+		"/C/OpenServer/domains/projects/guest_book/protected/views/index/index.php",
+		"/C/OpenServer/domains/projects/guest_book/css/template.css",
+		"/C/OpenServer/domains/projects/larek.kg/ftpsync.settings",
+		"/C/OpenServer/domains/projects/www/larek.kg/configuration.php",
+		"/C/OpenServer/domains/projects/larek.kg/tmp/plg_export_simalend/sql/install.mysql.utf8.sql",
+		"/C/Users/kirillbereza/AppData/Local/Temp/Rar$DIa0.585/import_csv.xml",
+		"/C/OpenServer/domains/guestbook/.git/config",
+		"/C/OpenServer/domains/projects/larek.kg/administrator/language/ru-RU/ru-RU.plg_kmpayment_walletone.sys.ini",
+		"/C/OpenServer/domains/projects/larek.kg/plugins/kmpayment/walletone/tmpl/default_settings.php",
+		"/C/OpenServer/domains/projects/larek.kg/plugins/kmpayment/walletone/tmpl/default_paymentform.php",
+		"/C/OpenServer/domains/projects/larek.kg/plugins/kmpayment/walletone/walletone.php",
+		"/C/Program Files (x86)/nodejs/node_modules/.bin/bower.cmd",
+		"/C/OpenServer/domains/advcatalog.v3 - Copy/sphinx/sphinx.local.conf",
+		"/C/OpenServer/modules/system/html/openserver/phpmyadmin/libraries/Config.class.php",
+		"/C/Users/kirillbereza/AppData/Local/Temp/fz3temp-1/paypal.php",
+		"/C/OpenServer/domains/projects/larek.kg/administrator/components/com_ksenmart/helpers/common/walletone.php",
+		"/C/OpenServer/domains/projects/larek.kg/components/com_ksenmart/controllers/cart.php",
+		"/C/OpenServer/domains/projects/larek.kg/components/com_ksenmart/views/cart/view.html.php",
+		"/C/OpenServer/domains/projects/larek.kg/plugins/kmshipping/redexpress/redexpress.php",
+		"/C/OpenServer/domains/projects/larek.kg/administrator/components/com_ksenmart/helpers/common/orders.php",
+		"/C/OpenServer/domains/KsenMart/packages/plugins/plg_receipt/receipt.php",
+		"/C/OpenServer/domains/projects/larek.kg/components/com_ksenmart/models/cart.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmpayments_walletone/language/ru-RU.plg_vmpayment_walletone.ini",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmpayments_walletone/install.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmpayments_walletone/install/helpers/walletone.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_ksm_favourites_products/ksm_favourite_products.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_ksm_favourites_products/install.php",
+		"/C/Users/kirillbereza/AppData/Local/Temp/Rar$DIa0.259/paypal.xml",
+		"/C/Users/kirillbereza/AppData/Local/Temp/Rar$DIa0.565/paypal.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_ksm_favourites_products/ksm_favourite_products.xml",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmshipment_redexpress/install.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmshipment_redexpress/install/helpers/walletone.php",
+		"/C/Users/kirillbereza/AppData/Local/Temp/Rar$DIa0.810/weight_countries.php",
+		"/C/Users/kirillbereza/AppData/Local/Temp/Rar$DIa0.893/weight_countries.php",
+		"/C/OpenServer/domains/vm/libraries/walletone/walletone.php",
+		"/C/OpenServer/domains/vm/plugins/vmshipment/redexpress/redexpress.php",
+		"/C/OpenServer/domains/vm/plugins/vmpayment/walletone/walletone.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmshipment_redexpress/language/ru-RU.plg_vmshipment_redexpress.ini",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmshipping_redexpress/language/ru-RU/ru-RU.plg_kmshipping_redexpress.ini",
+		"/C/Users/kirillbereza/AppData/Local/Temp/Rar$DIa0.029/weight_countries.php",
+		"/C/OpenServer/domains/vm/components/com_virtuemart/controllers/cart.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_walletone/walletone.php",
+		"/C/Users/kirillbereza/AppData/Local/Temp/fz3temp-1/walletone.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmpayments_walletone/walletone.xml",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmpayment_walletone/walletone.xml",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmpayment_walletone/install.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmshipping_redexpress/install.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmshipping_redexpress/redexpress.xml",
+		"/C/Users/kirillbereza/AppData/Local/Temp/fz3temp-1/plg_vmpayment_walletone-update.xml",
+		"/C/Users/kirillbereza/AppData/Local/Temp/fz3temp-1/plg_vmshipment_redexpress-update.xml",
+		"/C/Users/kirillbereza/AppData/Local/Temp/fz3temp-1/plg_kmshipping_redexpress-update.xml",
+		"/C/OpenServer/domains/advcatalog.v3/index.php",
+		"/C/Users/kirillbereza/Desktop/pkg_ksenmart-1.1.6-beta/pkg_ksenmart.xml",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmpayment_walletone/install/helpers/walletone.php",
+		"/C/OpenServer/domains/advcatalog.v3/sphinx/sphinx.conf",
+		"/C/OpenServer/domains/advcatalog.v3/sphinx/sphinx.local.conf",
+		"/C/OpenServer/domains/advcatalog.v3/protected/config/main.php",
+		"/C/OpenServer/domains/advcatalog.v3/protected/config/dev.php",
+		"/C/OpenServer/domains/advcatalog.v3/protected/config/local.php",
+		"/C/OpenServer/domains/KsenMart/packages/plugins/plg_kmpayment_walletone/install.php",
+		"/C/OpenServer/domains/KsenMart/packages/plugins/plg_kmshipping_redexpress/install.php",
+		"/C/OpenServer/domains/KsenMart/packages/com_ksenmart/administrator/helpers/common/product.php",
+		"/C/OpenServer/domains/KsenMart/packages/plugins/plg_roistat/install.php",
+		"/C/OpenServer/domains/advcatalog.v3 - Copy/protected/config/dev.php",
+		"/C/OpenServer/domains/advcatalog.v3 - Copy/protected/config/main.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmshipping_redexpress/-",
+		"/C/Program Files (x86)/FileZilla FTP Client/open",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmshipment_redexpress/-",
+		"/C/OpenServer/domains/advcatalog.v3/static/package.json",
+		"/C/OpenServer/domains/KsenMart/packages/plugins/plg_kmpayment_walletone/sql/install.mysql.utf8.sql",
+		"/C/Users/kirillbereza/AppData/Local/Temp/fz3temp-1/walletone 2.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmpayment_walletone/install/helpers/advanceorders.php",
+		"/C/Users/kirillbereza/AppData/Local/Temp/Rar$DIa0.215/ksenmart.xml",
+		"/C/OpenServer/domains/advcatalog.v3 - Copy/protected/config/local.php",
+		"/C/OpenServer/domains/KsenMart/.gitignore",
+		"/C/OpenServer/domains/KsenMart/README.md",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmpayments_walletone/index.html",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmpayments_walletone/walletone.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmshipment_redexpress/redexpress.php",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmshipping_redexpress/redexpress.php",
+		"/C/Users/kirillbereza/AppData/Local/Temp/fz3temp-1/plg_walletone-update.xml",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmpayment_walletone/-",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmshipment_redexpress/redexpress.xml",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmpayment_walletone/sql/install.mysql.utf8.sql",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmshipment_redexpress/sql/install.sql",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmpayment_walletone/language/ru-RU/ru-RU.plg_kmpayment_walletone.sys.ini",
+		"/C/Users/kirillbereza/AppData/Local/Temp/fz3temp-1/orders.php",
+		"/C/Program Files (x86)/FileZilla FTP Client/-",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmpayments_walletone/-",
+		"/C/Users/kirillbereza/AppData/Local/Temp/fz3temp-1/plg_yescredit-update.xml",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_vmpayments_walletone/install/success.php",
+		"/C/OpenServer/domains/advcatalog.v3 - Copy/sphinx/sphinx.conf",
+		"/C/OpenServer/modules/system/html/openserver/phpmyadmin/libraries/config.default.php",
+		"/C/OpenServer/modules/system/html/openserver/phpmyadmin/index.php",
+		"/C/OpenServer/userdata/config/PHP-5.4_php.ini",
+		"/C/OpenServer/userdata/config/MySQL-5.5_my.ini",
+		"/C/OpenServer/modules/database/sphinx-2.2.6/bin/sphinx.conf",
+		"/C/Users/kirillbereza/AppData/Local/Temp/fz3temp-1/result.php",
+		"/C/OpenServer/domains/vm/result.php",
+		"/C/OpenServer/domains/advcatalog.v3/protected/config/packages.php",
+		"/C/OpenServer/domains/advcatalog.v3/static/bower.json",
+		"/C/OpenServer/domains/advcatalog.v3/static/.bowerrc",
+		"/C/OpenServer/domains/advcatalog.v3/.gitignore",
+		"/C/Program Files (x86)/nodejs/bower.cmd",
+		"/C/Users/kirillbereza/Downloads/sphinx.conf",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_kmshipping_redexpress/language/ru-RU/ru-RU.plg_kmshipping_redexpress.sys.ini",
+		"/C/Users/kirillbereza/OneDrive/Работа/Контора KsenMart/Расширения/Плагины/plg_walletone/tmpl/default_paymentform.php",
+		"/C/OpenServer/domains/vm/administrator/components/com_virtuemart/tables/shipmentmethods.php",
+		"/C/OpenServer/domains/vm/administrator/components/com_virtuemart/tables/orders.php",
+		"/C/OpenServer/domains/vm/components/com_virtuemart/helpers/shopfunctionsf.php",
+		"/C/OpenServer/domains/vm/components/com_virtuemart/views/cart/view.html.php",
+		"/C/OpenServer/domains/vm/administrator/components/com_virtuemart/tables/states.php"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"C:\\OpenServer\\domains\\ldmco\\administrator\\components\\com_ksenmart\\views",
+			"C:\\Users\\Кирилл\\SkyDrive\\GitHub\\ksenmart\\J3\\pkg_ksenmart\\packages,C:\\Users\\Кирилл\\Documents\\GitHub\\ksenmart\\J3\\pkg_ksenmart\\packages",
+			"C:\\Users\\Кирилл\\SkyDrive\\GitHub\\ksenmart\\J3\\pkg_ksenmart\\packages",
+			"C:\\Users\\Кирилл\\Documents\\GitHub\\ksenmart\\J3\\pkg_ksenmart\\packages",
+			"C:\\Users\\Кирилл\\Documents\\GitHub\\ksenmart\\J3\\pkg_ksenmart\\packages\\modules\\admin",
+			"C:\\Users\\Кирилл\\Documents\\GitHub\\ksenmart\\J3\\pkg_ksenmart\\packages\\",
+			"C:\\OpenServer\\domains\\ldmco\\j3\\,C:\\Users\\Кирилл\\Documents\\GitHub\\ksenmart\\J3\\pkg_ksenmart\\packages\\",
+			"C:\\OpenServer\\domains\\ldmco\\j3\\,C:\\Users\\Кирилл\\Documents\\GitHub\\ksenmart\\J3\\pkg_ksenmart\\packages\\modules\\site",
+			"C:\\OpenServer\\domains\\ldmco\\j3\\templates\\kmtemplate",
+			"C:\\Users\\Кирилл\\Documents\\GitHub\\ksenmart\\J3\\pkg_ksenmart\\packages",
+			"C:\\Users\\Кирилл\\Documents\\GitHub\\ksenmart\\J3\\pkg_ksenmart\\packages\\mod_km_payment_types\\sql",
+			"C:\\OpenServer\\domains\\ldmco\\",
+			"C:\\OpenServer\\domains\\ldmco\\administrator\\components\\com_ksenmart",
+			"C:\\OpenServer\\domains\\ldmco\\administrator\\components\\com_ksengallery",
+			"C:\\OpenServer\\domains\\ldmco\\components\\com_ksenmart,C:\\OpenServer\\domains\\ldmco\\administrator\\components\\com_ksenmart,C:\\OpenServer\\domains\\ldmco\\administrator\\modules,C:\\OpenServer\\domains\\ldmco\\modules",
+			"C:\\OpenServer\\domains\\ldmco",
+			"C:\\OpenServer\\domains\\ldmco\\components\\com_ksenmart",
+			"C:\\OpenServer\\domains\\ldmco",
+			"C:\\Users\\Кирилл\\SkyDrive\\Работа\\Контора KsenMart\\Интерьерус\\com_ksengallery_1.0.1,C:\\OpenServer\\domains\\ldmco",
+			"C:\\Users\\Кирилл\\SkyDrive\\Работа\\Контора KsenMart\\Интерьерус\\com_ksengallery_1.0.1",
+			"C:\\OpenServer\\domains\\ldmco,C:\\Users\\Кирилл\\SkyDrive\\Работа\\Контора KsenMart\\Интерьерус\\com_ksengallery_1.0.1",
+			"C:\\OpenServer\\domains\\ldmco,C:\\Users\\Кирилл\\SkyDrive\\Работа\\Контора KsenMart\\Интерьерус\\com_ksengallery_1.0.1,C:\\OpenServer\\domains\\ldmco",
+			"C:\\OpenServer\\domains\\ldmco,C:\\Users\\Кирилл\\SkyDrive\\Работа\\Контора KsenMart\\Интерьерус\\com_ksengallery_1.0.1",
+			"C:\\OpenServer\\domains\\ldmco",
+			"C:\\OpenServer\\domains\\ldmco\\components\\com_ksenmart\\models"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"col-sm-3 col-lg-4 grid__item",
+			"col-sm-4 grid__item",
+			"#4d4d4d",
+			"export_csv",
+			"request",
+			"Modules",
+			"modules",
+			"),\n",
+			"request",
+			"requ",
+			"path",
+			"asse",
+			"advcatalog",
+			"memcache",
+			"v3.1.6",
+			"updateStatusForOneOrder",
+			"D:\\serber\\OpenServer\\modules\\database\\sphinx-2.2.6",
+			"C:\\",
+			"OpenServer",
+			"conf",
+			"noti",
+			"not",
+			"basePath",
+			"sphinx",
+			" (",
+			"COUNTRY",
+			"close",
+			"Confirm",
+			"conf",
+			"KSMWalletone",
+			"setOnTablePluginParams",
+			"testRange",
+			"_nbproductsCond",
+			"convert",
+			"Convert",
+			"convert",
+			"checkConditions",
+			"plgVmConfirmedOrder",
+			"SelectShipper",
+			"plgVmOnSelectShipper",
+			"VirtueMartCart",
+			"updatecart",
+			"select",
+			"OnSelectCheck",
+			"shipment_logos",
+			"displayListFE",
+			"setCartPrices",
+			"cost_percent_total",
+			"displayListFE",
+			"convert",
+			"plgVmOnProductDisplayShipment",
+			"checkConditions",
+			"storePSPluginInternalData",
+			"plgVmConfirmedOrder",
+			"KsenMartTable",
+			"KSMWalletone",
+			"$order->id",
+			"walletone",
+			"VMPAYMENT_WALLETONE",
+			"WALLETONE",
+			"VMPAYMENT",
+			"WALLETONE",
+			"walletone",
+			"VMPAYMENT",
+			"vmpayment",
+			"sock",
+			"secretKey",
+			"post_payment",
+			"input",
+			"getVarsToPush",
+			"ji",
+			"advcatalog",
+			"`region_id`",
+			"params_paypal_merchant_email",
+			"vmconfig",
+			"COUNTRIES",
+			"STANDARD",
+			"VMPAYMENT_STANDARD_LOGOS",
+			"addfieldpath",
+			"param",
+			"CDbConnection",
+			"ыз",
+			"app",
+			"com.whatsapp",
+			"I",
+			"targetSdkVersion",
+			"/index",
+			"index",
+			"/home/nikel303/httpd/advcatalog.dev/www/sphinx/index/",
+			"mysql",
+			"sock",
+			"mysqld.sock",
+			"300",
+			"time",
+			"100",
+			"lim",
+			"100",
+			"MemCache requires PHP {extension} extensio",
+			"уется загруженное расширен",
+			"требуется",
+			"exc",
+			"CMemCache",
+			"memcached",
+			"memcache",
+			"cache",
+			"cac",
+			"mem",
+			"cach",
+			"memcached",
+			"region",
+			"_getPayment",
+			"this",
+			"onBeforeExecuteKSMcartgetOrderInfo",
+			"orderIn",
+			"authentication",
+			"_setFields",
+			"_getFields",
+			"congratulation",
+			"this",
+			"$this->",
+			"getHash",
+			"secretKey",
+			"JArrayHelp",
+			"JArrayHelpper",
+			"url",
+			"project",
+			"input",
+			"shopopencart"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"col-xs-6 col-sm-3 col-lg-4 grid__item",
+			"col-sm-3 col-lg-4 grid__item",
+			"@gray",
+			"EXPORT_SIMALEND",
+			"export_simalend",
+			"v3.1.8",
+			"C:\\sphinx-2.2.6",
+			"(",
+			"VMWalletone",
+			"Table",
+			"VMWalletone",
+			"$orderId",
+			"redexpress",
+			"VMSHIPMENT_REDEXPRESS",
+			"VMPAYMENT_STANDARD",
+			"REDEXPRESS",
+			"VMSHIPMENT",
+			"REDEXPRESS",
+			"redexpress",
+			"VMSHIPMENT",
+			"vmshipment",
+			"WALLETONE",
+			"field",
+			"com.whatsapp50",
+			"C:\\OpenServer\\domains\\advcatalog.v3\\sphinx\\index\\",
+			"kmshipping",
+			"self::$",
+			"<input type=\"hidden\" name=\"WMI",
+			"'WMI_SIGNATURE'",
+			"secretKey",
+			"merchant_id",
+			"signature",
+			"v3.1.7",
+			"1.0.9",
+			"2.0.4",
+			"2.0.3",
+			"3.1.7",
+			"2.0.1",
+			"plg_kmplugins",
+			"REQUESTS",
+			"')):",
+			"$this",
+			"$this->item->product",
+			"<?php echo",
+			"<?php echo ",
+			"* [",
+			"[",
+			"",
+			"v3.1.6",
+			"v3.1.6-beta",
+			"onAfterGetKSMForm",
+			"$this->_db",
+			"$model->_db",
+			"svlfk_",
+			"->q",
+			"qn",
+			"q",
+			"KSMForm",
+			" ",
+			"#__",
+			"<div class=\"col-md-4 info-blocks advantage__item wow zoomIn\" data-wow-delay=\"0.6s\">",
+			"",
+			"<p>",
+			"",
+			"col-md-4 info-blocks advantage__item",
+			"info-blocks col-xs-3",
+			"glyphicon glyphicon-ok",
+			"<span>шаг</span>",
+			"месяца ",
+			"advantage__item promo-box col-xs-3",
+			"advantage__item promo-box",
+			"default",
+			"col-md-",
+			"",
+			"review[",
+			"col-sm-10",
+			"col-sm-2",
+			"отзывы",
+			"review",
+			"flipInX",
+			"bounceIn",
+			"fadeInRight wow",
+			"'com_ksenportfolio'",
+			"com_ksenportfolio",
+			"ksen_seo_config",
+			"com_ksenportfolio",
+			"KsenPortfolio",
+			"keyword",
+			"",
+			"на <?php echo $timerTerm; ?>",
+			"$product",
+			"array_first_element",
+			"array_shorten",
+			"ROIstat",
+			"$this->input",
+			". DS .",
+			"self::",
+			"location.reload();",
+			"ROISTAT",
+			"Roistat",
+			"ROISTAT",
+			"roistat",
+			"ROISTAT",
+			"mod_ksm_roistat",
+			"ROISTAT",
+			"mod_ksm_roistat",
+			"Roistat",
+			"mod_ksm_riostat",
+			"$this->_db->",
+			"'#__' . $ext_name . '_files'",
+			"project",
+			"javascript:void(0);",
+			"AdminEmailScript",
+			"price_max",
+			"price_min",
+			"price_max",
+			"price_min",
+			"$db",
+			"vqbfa_ksenmart_products_relations",
+			"$this->get('Items')",
+			"getItems",
+			"__ksen_files",
+			"Product",
+			"vqbfa_ksenmart_products_categories",
+			"_ksen_files",
+			"`vqbfa_",
+			"__ksen_files",
+			"$this->product"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 94.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "citibank.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sc",
+				"C:\\Users\\Кирилл\\AppData\\Local\\Temp\\fz3temp-1\\script.js"
+			],
+			[
+				"ksfi",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\KSFieldCtrl.js"
+			],
+			[
+				"ngjla",
+				"plugins\\system\\ksencore\\core\\assets\\js\\directives\\ngJlangBind.js"
+			],
+			[
+				"ksenc",
+				"administrator\\components\\com_ksenfaq\\controllers\\ksencontroller.php"
+			],
+			[
+				"ksfrmpr",
+				"administrator\\components\\com_ksenmart\\assets\\js\\controllers\\KSFormProductCtrl.js"
+			],
+			[
+				"kstree.",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\KSFieldTreeCtrl.js"
+			],
+			[
+				"ksenco",
+				"plugins\\system\\ksencore\\core\\controllers\\ksencontroller.php"
+			],
+			[
+				"price",
+				"administrator\\components\\com_ksenmart\\helpers\\common\\price.php"
+			],
+			[
+				"ng",
+				"administrator\\components\\com_ksenmart\\assets\\js\\directives\\ngKsMoveData.js"
+			],
+			[
+				"com_ksenmart/sql/install.s",
+				"administrator\\components\\com_ksenmart\\sql\\install.sql"
+			],
+			[
+				"prog",
+				"plugins\\system\\ksencore\\core\\assets\\css\\prog-style.css"
+			],
+			[
+				"stat",
+				"administrator\\components\\com_ksenmart\\assets\\js\\states.js"
+			],
+			[
+				"ksli",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\KSListCtrl.js"
+			],
+			[
+				"seou",
+				"administrator\\components\\com_ksenmart\\views\\seo\\tmpl\\seourlvalue.php"
+			],
+			[
+				"ksf",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\KSForm.js"
+			],
+			[
+				"ksseo",
+				"administrator\\components\\com_ksenmart\\assets\\js\\controllers\\KSFormSeoUrlValueCtrl.js"
+			],
+			[
+				"ngm",
+				"administrator\\components\\com_ksenmart\\assets\\js\\directives\\ngKsMoveData.js"
+			],
+			[
+				"kslistinnerctrl",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\KSListInnerCtrl.js"
+			],
+			[
+				"ksfie",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\KSFieldCtrl.js"
+			],
+			[
+				"ksfiel",
+				"administrator\\components\\com_ksenmart\\assets\\js\\controllers\\KSFieldUsersCtrl.js"
+			],
+			[
+				"ksfieldctrl",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\KSFieldCtrl.js"
+			],
+			[
+				"itemsf",
+				"plugins\\system\\ksencore\\core\\assets\\js\\factories\\ItemsFactory.js"
+			],
+			[
+				"getf",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\getFileUploadCtrl.js"
+			],
+			[
+				"states",
+				"administrator\\components\\com_ksenmart\\assets\\js\\states.js"
+			],
+			[
+				"inner",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\ModalInnerCtrl.js"
+			],
+			[
+				"style.css",
+				"plugins\\system\\ksencore\\core\\assets\\css\\style.css"
+			],
+			[
+				"kslistsearchctrl",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\KSListSearchCtrl.js"
+			],
+			[
+				"items",
+				"plugins\\system\\ksencore\\core\\assets\\js\\factories\\ItemsFactory.js"
+			],
+			[
+				"ksl",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\KSListCtrl.js"
+			],
+			[
+				"",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\ModalInnerCtrl.js"
+			],
+			[
+				"modalinnerctrl",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\ModalInnerCtrl.js"
+			],
+			[
+				"app.",
+				"administrator\\components\\com_ksenmart\\assets\\js\\app.js"
+			],
+			[
+				"modalc",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\ModalCtrl.js"
+			],
+			[
+				"ksfo",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\KSForm.js"
+			],
+			[
+				"ngb",
+				"plugins\\system\\ksencore\\core\\assets\\js\\directives\\ngBindModel.js"
+			],
+			[
+				"ngj",
+				"plugins\\system\\ksencore\\core\\assets\\js\\directives\\ngJlangBind.js"
+			],
+			[
+				"seo.php",
+				"administrator\\components\\com_ksenmart\\models\\seo.php"
+			],
+			[
+				"app.js",
+				"administrator\\components\\com_ksenmart\\assets\\js\\app.js"
+			],
+			[
+				"productc",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\ProductChildsCtrl.js"
+			],
+			[
+				"sortable.",
+				"plugins\\system\\ksencore\\core\\assets\\js\\directives\\sortable.js"
+			],
+			[
+				"sor",
+				"media\\jui\\js\\sortablelist.js"
+			],
+			[
+				"progs",
+				"plugins\\system\\ksencore\\core\\assets\\css\\prog-style.css"
+			],
+			[
+				"prog-s",
+				"plugins\\system\\ksencore\\core\\assets\\css\\prog-style.css"
+			],
+			[
+				"kslis",
+				"plugins\\system\\ksencore\\core\\assets\\js\\controllers\\KSListCtrl.js"
+			],
+			[
+				"gs/config",
+				"administrator\\components\\com_ksengallery\\views\\settings\\config.xml"
+			],
+			[
+				"orders.php",
+				"administrator\\components\\com_ksenmart\\helpers\\common\\orders.php"
+			],
+			[
+				"helpers/helper",
+				"plugins\\system\\ksencore\\core\\helpers\\helper.php"
+			],
+			[
+				"system.php",
+				"plugins\\system\\ksencore\\core\\helpers\\common\\system.php"
+			],
+			[
+				"ksencore.",
+				"plugins\\system\\ksencore\\ksencore.php"
+			],
+			[
+				"core/defines.php",
+				"plugins\\system\\ksencore\\core\\defines.php"
+			],
+			[
+				"helpers/system.php",
+				"plugins\\system\\ksencore\\core\\helpers\\common\\system.php"
+			],
+			[
+				"/helpers/users.php",
+				"plugins\\system\\ksencore\\core\\helpers\\common\\users.php"
+			],
+			[
+				"kssys",
+				"plugins\\system\\ksencore\\core\\helpers\\common\\system.php"
+			],
+			[
+				"coreusers",
+				"plugins\\system\\ksencore\\core\\helpers\\common\\users.php"
+			],
+			[
+				"systemkse",
+				"plugins\\system\\ksencore\\ksencore.php"
+			],
+			[
+				"sys",
+				"C:\\Users\\Кирилл\\SkyDrive\\Documents\\Сайты\\Денис Екимов\\unikids\\web\\css\\jquery.nouislider.min.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 537.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"a",
+				"C:\\OpenServer\\domains\\auction\\auction.sublime-workspace"
+			],
+			[
+				"",
+				"C:\\OpenServer\\domains\\projects\\millab\\ksm-projects-millab.sublime-project"
+			]
+		],
+		"width": 681.0
+	},
+	"select_symbol":
+	{
+		"height": 41.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Jda",
+				"JFormFieldDate"
+			],
+			[
+				"",
+				"Date"
+			]
+		],
+		"width": 400.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
