@@ -74,4 +74,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+Gruntfile.js
+
 /build
