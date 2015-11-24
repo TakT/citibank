@@ -80,24 +80,29 @@
 							<div class="staff-tabs">
 								<!-- Nav tabs -->
 								<ul class="nav nav-tabs" role="tablist">
-									<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">По дебетовой <br>карте</a></li>
-									<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">По кредиту</a></li>
-									<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">По кредитной <br>карте</a></li>
+									<li role="presentation" class="col-xs-4 col-sm-4 nav-tab1 active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">По дебетовой <br>карте <img src="./assets/images/staff-tab1-ico1.png" alt=""></a></li>
+									<li role="presentation" class="col-xs-4 col-sm-4 nav-tab2"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">По кредиту <img src="./assets/images/staff-tab2-ico1.png" alt=""></a></li>
+									<li role="presentation" class="col-xs-4 col-sm-4 nav-tab3"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">По кредитной <br>карте <img src="./assets/images/staff-tab3-ico1.png" alt=""></a></li>
 								</ul>
 
 								<!-- Tab panes -->
 								<div class="tab-content">
 									<div role="tabpanel" class="tab-pane active" id="home">
 										<div class="col-xs-6 col-sm-6">
-											<div class="col-xs-12 col-sm-4"><img src="./assets/images/staff-tab1-img1.jpg" alt=""></div>
+											<div class="col-xs-12 col-sm-4"><img src="./assets/images/staff-tab1-img1.png" alt=""></div>
 											<div class="col-xs-12 col-sm-8 staff-tab-text">Конвертация заработной платы в&nbsp;доллары США или евро по&nbsp;льготному курсу в&nbsp;сумме, определяемой клиентом.</div>
 										</div>
 										<div class="col-xs-6 col-sm-6">
-											<div class="col-xs-12 col-sm-4"><img src="./assets/images/staff-tab1-img2.jpg" alt=""></div>
-											<div class="col-xs-12 col-sm-8 staff-tab-text">Банковское обслуживание в&nbsp;рамках пакета банковских услуг CitiOne без&nbsp;комиссии.</div>
+											<div class="col-xs-12 col-sm-2"><img src="./assets/images/staff-tab1-img2.png" alt=""></div>
+											<div class="col-xs-12 col-sm-10 staff-tab-text">Банковское обслуживание в&nbsp;рамках пакета банковских услуг CitiOne без&nbsp;комиссии.</div>
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane" id="profile">(.col-xs-6.col-sm-6>(.col-xs-12.col-sm-4>img)>.col-xs-12.col-sm-8.staff-tab-text)*2</div>
+									<div role="tabpanel" class="text-center tab-pane" id="profile">
+										<div class="col-xs-12 col-sm-6" style="text-align: center; float: none; display: inline-block;">
+											<div class="col-xs-12 col-sm-3"><img src="./assets/images/staff-tab2-img1.png" alt=""></div>
+											<div class="col-xs-12 col-sm-8 staff-tab-text">Сниженные процентные ставки. Сумма кредита&nbsp;&mdash; до&nbsp;1&nbsp;500&nbsp;000&nbsp;рублей.</div>
+										</div>
+									</div>
 									<div role="tabpanel" class="tab-pane" id="messages">...</div>
 								</div>
 							</div>
@@ -122,6 +127,7 @@
 
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="./assets/js/bootstrap.tabs.min.js"></script>
 		<script type="text/javascript" src="./assets/js/template.js"></script>
 	</body>
 </html>
