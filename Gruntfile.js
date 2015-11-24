@@ -35,8 +35,10 @@ module.exports = function(grunt) {
 			options: {
 				watchTask: true,
 				reloadDelay: 300,
-				proxy: 'projects/e-produce/ekimov/citibank/build/',
-			}
+				server: {
+					baseDir: "./build"
+				}
+		   }
 		},
 
 		includereplace: {

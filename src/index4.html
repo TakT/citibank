@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Выгодно компании</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="./assets/css/styles.css">
+
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+	</head>
+	<body class="staff__page">
+
+		<header id="header">
+@@include('./parts/header.html')
+		</header>
+
+		<section id="content">
+			<div class="container">
+
+				<div class="row visible-lg visible-xs">
+					<div class="content__topline clearfix">
+						<div class="col-sm-3 sidebar__left">
+							<div class="sidebar__left-title">Зарплатный проект</div>
+						</div>
+						<div class="col-sm-9 sidebar__content">
+							<ul class="breadcrumb">
+								<li>
+									<a href="javascript:void(0);">Домой</a>
+								</li>
+								<li class="active">
+									<a href="javascript:void(0);">Зарплатный проект</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					
+					<aside class="col-sm-3 sidebar__left visible-lg">
+						<div class="categories">
+							<ul class="list-unstyled">
+								<li>
+									<a href="javascript:void(0);" title="Выгодно компании">Выгодно компании</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);" title="Выгодно сотрудникам">Выгодно сотрудникам</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);" title="Выгодно руководителям">Выгодно руководителям</a>
+								</li>
+							</ul>
+						</div>
+					</aside>
+
+					<div class="col-sm-12 col-lg-9 sidebar__content">
+						
+						<div class="content__img">
+							<img src="./assets/images/content-img2.jpg" alt="" class="img-responsive hidden-xs">
+							<img src="./assets/images/content-img2-mobile.jpg" alt="" class="img-responsive visible-xs">
+						</div>
+
+						<div class="content__actions">
+							<a href="https://www.citibank.ru/russia/citigroup/rus/about.htm?JFP_TOKEN=JFZ5G9DY" title="Узнайте больше о Ситибанке" class="btn btn-link-arrow">
+								<span>&#9658;</span>
+								<span>Узнайте больше о Ситибанке</span>
+							</a>
+							<a href="https://www.citibank.ru/" title="Онлайн заявка" class="btn btn-blue">Онлайн заявка</a>
+						</div>
+
+						<div class="content__title">Мы&nbsp;учитываем потребности каждого Вашего сотрудника и&nbsp;предлагаем соответствующие продукты и&nbsp;услуги на&nbsp;льготных&nbsp;условиях:</div>
+						<div class="staff row">
+							<div class="staff-tabs">
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">По дебетовой <br>карте</a></li>
+									<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">По кредиту</a></li>
+									<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">По кредитной <br>карте</a></li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="home">
+										<div class="col-xs-6 col-sm-6">
+											<div class="col-xs-12 col-sm-4"><img src="./assets/images/staff-tab1-img1.jpg" alt=""></div>
+											<div class="col-xs-12 col-sm-8 staff-tab-text">Конвертация заработной платы в&nbsp;доллары США или евро по&nbsp;льготному курсу в&nbsp;сумме, определяемой клиентом.</div>
+										</div>
+										<div class="col-xs-6 col-sm-6">
+											<div class="col-xs-12 col-sm-4"><img src="./assets/images/staff-tab1-img2.jpg" alt=""></div>
+											<div class="col-xs-12 col-sm-8 staff-tab-text">Банковское обслуживание в&nbsp;рамках пакета банковских услуг CitiOne без&nbsp;комиссии.</div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane" id="profile">(.col-xs-6.col-sm-6>(.col-xs-12.col-sm-4>img)>.col-xs-12.col-sm-8.staff-tab-text)*2</div>
+									<div role="tabpanel" class="tab-pane" id="messages">...</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="content__disclaimer">
+							<ul class="list-unstyled">
+								<li>1. В установленном Ситибанком количестве операций.</li>
+								<li>2. Льготные условия применяются к сотрудникам компании, заключившим с компанией трудовой договор и получающим заработную плату и иные платежи по трудовому договору на счет, открытый банком. Остальные условия банковского обслуживания — в соответствии с тарифами Ситибанка (см. www.citibank.ru).</li>
+								<li>3. С условиями использования можно ознакомиться на сайте www.prioritypass.com/ru. Стоимость — согласно тарифам банковского обслуживания, если иное не оговорено в рамках соглашения о перечислении компанией на счета сотрудников сумм заработной платы, вознаграждений и компенсаций, выплат социального характера. </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<footer id="footer">
+@@include('./parts/footer.html')
+		</footer>
+
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="./assets/js/template.js"></script>
+	</body>
+</html>
