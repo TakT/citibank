@@ -680,6 +680,10 @@ body {
   .news__grid .grid__item:nth-child(3n+1) {
     clear: none;
   }
+  .advantages .advantage__item .item__content {
+    width: 295px;
+    padding: 25px 15px 5px 15px;
+  }
   .advantages .advantage__item .item__content .item_title span {
     font-size: 14px;
     line-height: 16px;
@@ -794,7 +798,8 @@ body {
     height: auto;
   }
   .advantages .advantage__item .item__content {
-    padding: 25px 15px 5px 25px;
+    width: 205px;
+    padding: 25px 15px 5px 15px;
   }
   .advantages .advantage__item .item__content .item_title span {
     font-size: 13px;
