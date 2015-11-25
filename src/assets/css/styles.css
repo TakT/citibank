@@ -175,7 +175,7 @@ body {
   padding: 28px 15px 5px 28px;
 }
 .advantages .advantage__item .item__content .item_title,
-.advantages .advantage__item .item__content .item_title a {
+.advantages .advantage__item .item__content .item_title span {
   color: #000;
   line-height: 16px;
   font-size: 14px;
@@ -593,7 +593,7 @@ body {
 }
 @media (max-width: 1200px) {
   .container {
-    width: 100%;
+    width: 90%;
   }
   header img,
   footer img {
@@ -626,6 +626,17 @@ body {
     padding-left: 0;
     margin-bottom: 10px;
   }
+  .news__grid .grid__item:nth-child(3n+1) {
+    clear: inherit;
+  }
+  .news__grid .grid__item:nth-child(4n+1) {
+    clear: both;
+  }
+}
+@media (max-width: 1023px) {
+  .container {
+    width: 100%;
+  }
 }
 @media (min-width: 480px) and (max-width: 767px) {
   #content .content__img img {
@@ -657,7 +668,7 @@ body {
   .news__grid .grid__item:nth-child(3n+1) {
     clear: none;
   }
-  .advantages .advantage__item .item__content .item_title a {
+  .advantages .advantage__item .item__content .item_title span {
     font-size: 14px;
     line-height: 16px;
   }
@@ -765,7 +776,7 @@ body {
   .advantages .advantage__item .item__content {
     padding: 25px 15px 5px 25px;
   }
-  .advantages .advantage__item .item__content .item_title a {
+  .advantages .advantage__item .item__content .item_title span {
     font-size: 13px;
     line-height: 15px;
   }
