@@ -128,7 +128,7 @@ body {
 }
 .categories ul li {
   padding: 12px 5px;
-  border-bottom: 2px dotted #999;
+  border-bottom: 1px dotted #999;
 }
 .categories ul li a {
   color: #4d4d4d;
@@ -721,6 +721,14 @@ body {
     left: 12px;
   }
 }
+@media (max-width: 580px) {
+  .compare .compare__wrapper .compare__item > div {
+    width: 41.66666667%;
+  }
+  .compare .compare__wrapper .compare__item .col-xs-2 {
+    width: 16.66666667%;
+  }
+}
 @media (max-width: 479px) {
   .news__grid .grid__item {
     float: none;
@@ -790,18 +798,10 @@ body {
     display: none;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 433px) {
   .compare .compare__title .col-xs-5.col-xs-offset-2 {
     width: 50%;
     margin-left: 8.33333333%;
-  }
-}
-@media (max-width: 340px) {
-  #content .sidebar__content {
-    min-height: 612px;
-    background: url(../images/content_bg.jpg) no-repeat top left;
-    padding-right: 8px;
-    padding-left: 8px;
   }
   .compare .compare__wrapper .compare__item .item__title,
   .compare .compare__wrapper .compare__item .item__desc,
@@ -811,22 +811,76 @@ body {
     min-height: 100px;
   }
   .compare .compare__wrapper .compare__item .item__title {
-    width: 143px;
+    width: 46%;
+  }
+  .compare .compare__wrapper .compare__item .item__desc {
+    width: 46%;
+  }
+  .compare .compare__wrapper .compare__item .item__desc br {
+    display: none;
+  }
+  .compare .compare__wrapper .compare__item .item__arrow {
+    width: 8%;
+    padding: 0;
+    font-size: 22px;
+    padding-top: 37px;
+  }
+  .compare .compare__wrapper .compare__item.compare__item-1 .item__desc,
+  .compare .compare__wrapper .compare__item.compare__item-1 .item__arrow,
+  .compare .compare__wrapper .compare__item.compare__item-1 .item__title {
+    height: 144px;
+  }
+  .compare .compare__wrapper .compare__item.compare__item-1 .item__arrow {
+    padding-top: 65px;
+  }
+  .compare .compare__wrapper .compare__item.compare__item-2 .item__desc,
+  .compare .compare__wrapper .compare__item.compare__item-2 .item__arrow,
+  .compare .compare__wrapper .compare__item.compare__item-2 .item__title {
+    height: 134px;
+  }
+  .compare .compare__wrapper .compare__item.compare__item-2 .item__arrow {
+    padding-top: 55px;
+  }
+  .compare .compare__wrapper .compare__item.compare__item-3 .item__desc,
+  .compare .compare__wrapper .compare__item.compare__item-3 .item__arrow,
+  .compare .compare__wrapper .compare__item.compare__item-3 .item__title {
+    height: 130px;
+  }
+  .compare .compare__wrapper .compare__item.compare__item-3 .item__arrow {
+    padding-top: 55px;
+  }
+  .compare .compare__wrapper .compare__item.compare__item-4 .item__desc,
+  .compare .compare__wrapper .compare__item.compare__item-4 .item__arrow,
+  .compare .compare__wrapper .compare__item.compare__item-4 .item__title {
+    height: 134px;
+  }
+  .compare .compare__wrapper .compare__item.compare__item-4 .item__arrow {
+    padding-top: 55px;
+  }
+  .compare .compare__wrapper .compare__item.compare__item-5 .item__desc,
+  .compare .compare__wrapper .compare__item.compare__item-5 .item__arrow,
+  .compare .compare__wrapper .compare__item.compare__item-5 .item__title {
+    height: 172px;
+  }
+  .compare .compare__wrapper .compare__item.compare__item-5 .item__arrow {
+    padding-top: 75px;
+  }
+}
+@media (max-width: 340px) {
+  .compare .compare__wrapper .compare__item .item__title {
+    width: 135px;
   }
   .compare .compare__wrapper .compare__item .item__title br {
     display: none;
   }
   .compare .compare__wrapper .compare__item .item__desc {
-    width: 131px;
+    width: 125px;
   }
   .compare .compare__wrapper .compare__item .item__desc br {
     display: none;
   }
   .compare .compare__wrapper .compare__item .item__arrow {
     width: 30px;
-    padding: 0;
-    font-size: 22px;
-    padding-top: 37px;
   }
   .compare .compare__wrapper .compare__item.compare__item-1 .item__desc,
   .compare .compare__wrapper .compare__item.compare__item-1 .item__arrow,
