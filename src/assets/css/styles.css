@@ -596,6 +596,9 @@ body {
 .head__page #content .content__disclaimer {
   margin-top: 0;
 }
+.img-responsive2 {
+  max-width: 100%;
+}
 @media (max-width: 1200px) {
   .container {
     width: 90%;
