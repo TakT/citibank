@@ -695,7 +695,14 @@ body {
 		}
 	}
 }
-
+@media (min-width: 480px) and (max-width: 767px) {
+	#content .content__img img {
+		display: none!important;
+	}
+	#content .content__img .mobile-land {
+		display: block!important;
+	}
+}
 @media (max-width: 767px) {
 	#content {
 		.content__img {
