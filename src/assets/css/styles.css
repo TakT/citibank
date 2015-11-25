@@ -484,6 +484,10 @@ body {
   line-height: 1.143;
   padding: 30px 0 0 35px;
   position: relative;
+  outline: none;
+}
+#content .staff .staff-tabs .nav-tabs li a:focus {
+  outline: none;
 }
 #content .staff .staff-tabs .nav-tabs li a img {
   float: right;
