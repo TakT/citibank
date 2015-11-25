@@ -212,7 +212,8 @@ body {
   margin-right: 0;
   margin-bottom: 15px;
 }
-.compare .compare__wrapper .compare__item > div {
+.compare .compare__wrapper .compare__item > div,
+.compare .compare__wrapper .compare__item > a {
   width: 44%;
 }
 .compare .compare__wrapper .compare__item > .col-xs-2 {
@@ -748,7 +749,8 @@ body {
   }
 }
 @media (max-width: 580px) {
-  .compare .compare__wrapper .compare__item > div {
+  .compare .compare__wrapper .compare__item > div,
+  .compare .compare__wrapper .compare__item > a {
     width: 41.66666667%;
   }
   .compare .compare__wrapper .compare__item .col-xs-2 {
