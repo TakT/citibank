@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 					optimization: true,
 				},
 				files: {
-					'build/assets/css/styles.css': ['src/assets/less/icons.less', 'src/assets/less/styles.less'],
+					'src/assets/css/styles.css': ['src/assets/less/icons.less', 'src/assets/less/styles.less'],
 					// 'src/*.html': ['build/*.html'],
 				},
 			},
@@ -35,8 +35,10 @@ module.exports = function(grunt) {
 			options: {
 				watchTask: true,
 				reloadDelay: 300,
-				proxy: 'projects/e-produce/ekimov/citibank/build/',
-			}
+				server: {
+					baseDir: "./build"
+				}
+		   }
 		},
 
 		includereplace: {
