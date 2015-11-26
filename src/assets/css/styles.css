@@ -65,6 +65,7 @@ body {
 @media (min-width: 1200px) {
   .container {
     width: 956px;
+    padding-right: 28px;
   }
 }
 .img-responsive {
@@ -682,7 +683,7 @@ body {
     width: 220px;
   }
   #content .sidebar__content {
-    width: 736px;
+    width: 723px;
   }
 }
 @media (min-width: 480px) and (max-width: 767px) {
