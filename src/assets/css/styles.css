@@ -172,7 +172,7 @@ body {
 }
 .advantages .advantage__item .item__content {
   width: 205px;
-  padding: 28px 15px 5px 28px;
+  padding: 28px 15px 5px 14px;
 }
 .advantages .advantage__item .item__content .item_title,
 .advantages .advantage__item .item__content .item_title span {
