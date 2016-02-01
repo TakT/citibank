@@ -361,6 +361,11 @@ body {
   border-top: 1px solid #fff;
   font-family: 'InterstateCyr-Regular', Helvetica, Arial;
 }
+#content .content__img .content__img-content .content__img-desc span.phone {
+  font-family: 'InterstateCyr-Bold', Helvetica, Arial;
+  color: #0458a0;
+  font-size: 16px;
+}
 #content .content__actions {
   text-align: right;
   margin-bottom: 15px;
@@ -643,6 +648,79 @@ body {
 }
 .img-responsive2 {
   max-width: 100%;
+}
+.ico {
+  background: url('../images/ico.png');
+  display: inline-block;
+}
+.ico-clock {
+  background-position: 0 0;
+  width: 46px;
+  height: 46px;
+}
+.phone__page p {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-family: "Arial";
+  color: #333333;
+  line-height: 1.334;
+}
+.phone__page .info-time {
+  margin: 40px 0;
+  border: 1px solid #3679b3;
+  padding: 30px 60px 28px 30px;
+}
+.phone__page .info-time span.ico {
+  margin-right: 30px;
+  float: left;
+}
+.phone__page .list-questions {
+  margin-bottom: 30px;
+}
+.phone__page .list-questions h5 {
+  font-size: 15px;
+  font-family: "Arial";
+  color: #333333;
+  font-weight: bold;
+}
+.phone__page .list-questions span.ico {
+  margin-right: 30px;
+  float: left;
+}
+.phone__page .list-questions ul {
+  padding-left: 25px;
+  font-size: 15px;
+}
+.phone__page .list-questions ul li {
+  font-size: 15px;
+}
+.phone__page .list-questions ul li span {
+  font-size: 13px;
+  font-family: "Arial";
+  color: #333333;
+  line-height: 1.334;
+}
+@media (min-width: 1200px) {
+  .phone__page #content .content__img .content__img-content .content__img-title {
+    color: #0458a0;
+    font-size: 31px;
+    /* line-height: 44px; */
+    font-family: 'InterstateCyr-Bold', Helvetica, Arial;
+    padding-left: 4px;
+    padding-right: 20px;
+    margin-bottom: 9px;
+  }
+  .phone__page #content .content__img-content .content__img-desc {
+    color: #333;
+    font-size: 13px;
+    line-height: 17px;
+    padding-top: 18px;
+    border-top: 1px solid #fff;
+    font-family: 'InterstateCyr-Regular', Helvetica, Arial;
+  }
+  .phone__page #content .content__img-content .content__img-desc span.phone {
+    font-size: 13px;
+  }
 }
 @media (max-width: 1200px) {
   .container {
