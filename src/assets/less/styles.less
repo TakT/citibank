@@ -708,6 +708,21 @@ body {
 	width: 46px;
 	height: 46px;
 }
+.ico-important {
+	background-position: -46px 0px;
+	width: 42px;
+	height: 42px;
+}
+.ico-ok {
+	background-position: 0px -46px;
+	width: 16px;
+	height: 13px;
+}
+.ico-no {
+	background-position: -16px -46px;
+	width: 13px;
+	height: 13px;
+}
 .phone__page {
 	p {
 		margin-bottom: 5px;
@@ -767,6 +782,7 @@ body {
 						font-family: "Arial";
 						color: rgb(51, 51, 51);
 						line-height: 1.308;
+						padding-bottom: 10px;
 						&.time {
 							width: 56px;
 							padding-left: 2px;
@@ -816,6 +832,149 @@ body {
 					}
 				}
 			}
+		}
+	}
+	.info-important {
+		margin: 35px 0;
+		background: #f4f4f4;
+		padding: 30px 120px 28px 30px;
+		.info-important-text {
+			display: table-cell;
+		}
+		h5 {
+			font-size: 18px;
+			font-family: "Arial";
+			color: rgb(4, 88, 160);
+			font-weight: bold;
+			line-height: 1.556;
+			margin: 0;
+		}
+		span.ico {
+			margin: 15px 30px 0 0;
+		    float: left;
+		}
+	}
+	.table_possible_operations {
+		padding-bottom: 30px;
+		h5 {
+			font-size: 18px;
+			font-family: "Arial";
+			color: rgb(4, 88, 160);
+			font-weight: bold;
+			line-height: 1.556;
+		}
+		> p {
+			margin-top: 25px;
+			a {
+				color: #05589d;
+				text-decoration: underline;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+		.nav-tabs {
+			li {
+				a {
+					font-size: 13px;
+					font-family: "Arial";
+					color: rgb(4, 88, 160);
+					text-transform: uppercase;
+					line-height: 1.154;
+					text-align: center;
+					margin-right: 6px;
+				}
+				&:not(.active) {
+					a {
+						font-size: 13px;
+						font-family: "Arial";
+						color: rgb(255, 255, 255);
+						font-weight: bold;
+						text-transform: uppercase;
+						line-height: 1.154;
+						border: 0;
+					    padding: 10.5px 15px;
+						background-image: -moz-linear-gradient( 90deg, rgb(45,116,175) 0%, rgb(78,138,191) 56%, rgb(111,159,206) 100%);
+						background-image: -webkit-linear-gradient( 90deg, rgb(45,116,175) 0%, rgb(78,138,191) 56%, rgb(111,159,206) 100%);
+						background-image: -ms-linear-gradient( 90deg, rgb(45,116,175) 0%, rgb(78,138,191) 56%, rgb(111,159,206) 100%);
+					}
+				}
+			}
+		}
+		.tab-content {
+			border: 1px solid #dadada;
+			border-top: 0;
+			padding: 20px 17px 0;
+		}
+		table {
+			width: 100%;
+			thead {
+				border-bottom: 1px solid #d8d8d8;
+				tr {
+					td {
+						text-align: center;
+					    padding-bottom: 10px;
+						&.type_transaction {
+							width: 270px;
+							text-align: left;
+						}
+						&.operation1 {
+							width: 120px;
+						}
+						&.operation2 {
+							width: 180px;
+						}
+						&.operation3 {
+							width: 90px;
+						}
+					}
+				}
+			}
+			tbody {
+				tr  {
+					&:nth-child(2n) {
+						background: #f4f4f4;
+						td {
+							padding: 6px 0;
+						}
+					}
+					td {
+						padding: 10px 0;
+						&:not(:first-child) {
+							text-align: center;
+						}
+						&:first-child {
+							padding-right: 55px;
+						}
+					}
+					&:first-child {
+						margin-top: 15px;
+						td {
+							margin-top: 15px;
+						}
+					}
+					&.td-top {
+						td {
+							padding: 9px 0;
+						}
+					}
+				}
+			}
+			td {
+				font-size: 13px;
+				font-family: "Arial";
+				color: #333333;
+			}
+		}
+	}
+	.block-why {
+		h5 {
+			font-size: 15px;
+			font-family: "Arial";
+			color: rgb(51, 51, 51);
+			font-weight: bold;
+			line-height: 1.153;
+			margin: 0 0 6px;
 		}
 	}
 }
@@ -1065,6 +1224,40 @@ body {
 	.staff__page #content .content__img {
 	    margin-left: -8px;
 		margin-right: -8px;
+	}
+	.phone__page {
+		#content {
+			.content__img {
+				margin-bottom: 85px;
+				.content__img-content {
+				    top: 0;
+				    bottom: 0;
+				    padding-top: 50px;
+				    width: 100%;
+				    padding-right: 18px;
+				    left: 9px;
+				    .content__img-desc {
+				        display: block;
+					    position: absolute;
+					    bottom: -125px;
+					    width: 100%;
+					    padding-bottom: 17px;
+					    border-top: 0;
+					    border-bottom: 1px solid #d8d8d8;
+					    margin-bottom: 25px;
+    					p {
+    						font-size: 14px;
+    					}
+    					span.phone {						    
+    						font-size: 14px;
+						}	
+					}
+				}
+			}
+			.content__actions {
+				display: none;
+			}
+		}
 	}
 }
 @media (max-width: 620px) {
