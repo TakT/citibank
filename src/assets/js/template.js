@@ -36,6 +36,16 @@ $( window ).resize(function() {
 			scrollButtons:{enable:true},
 			theme:"3d",
 			scrollbarPosition:"outside",
+			mouseWheel:{enable: false},
+			snapAmount:120,
+			snapOffset:40
+		});
+		$(".block_table_possible_operations").mCustomScrollbar({
+			axis:"x",
+			scrollButtons:{enable:true},
+			theme:"3d",
+			scrollbarPosition:"outside",
+			mouseWheel:{enable: false},
 			snapAmount:120,
 			snapOffset:40
 		});
