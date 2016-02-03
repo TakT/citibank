@@ -1127,6 +1127,15 @@ body {
   .phone__page #content .content__img .content__img-content .content__img-desc span.phone {
     font-size: 14px;
   }
+  .phone__page #content p {
+    font-size: 17px;
+  }
+  .phone__page #content .list-questions h5 {
+    font-size: 19px;
+  }
+  .phone__page #content .list-questions ul li span {
+    font-size: 17px;
+  }
   .phone__page #content .info-time {
     text-align: center;
     padding: 20px 23px;
@@ -1181,16 +1190,23 @@ body {
     font-size: 23px;
     line-height: 1.1;
   }
+  .phone__page #content table td {
+    font-size: 17px;
+    font-family: "Arial";
+    color: #333333;
+  }
   .phone__page #content .table-working_hours table {
     width: 693px;
   }
   .phone__page #content .table-working_hours #mCSB_1_scrollbar_horizontal {
-    top: 50%;
+    height: 100%;
+    top: 0;
   }
   .phone__page #content .table-working_hours .mCSB_buttonLeft {
     height: 345px;
+    max-height: 90%;
     width: 30px;
-    background: rgba(101, 153, 199, 0.5);
+    background: rgba(101, 153, 199, 0.7);
     opacity: 1;
     position: absolute;
     top: 50%;
@@ -1210,8 +1226,9 @@ body {
   }
   .phone__page #content .table-working_hours .mCSB_buttonRight {
     height: 345px;
+    max-height: 90%;
     width: 30px;
-    background: rgba(101, 153, 199, 0.5);
+    background: rgba(101, 153, 199, 0.7);
     opacity: 1;
     position: absolute;
     top: 50%;
@@ -1231,6 +1248,15 @@ body {
   }
   .phone__page #content .table-working_hours .mCSB_draggerContainer {
     display: none;
+  }
+  .phone__page #content .block-why h5 {
+    font-size: 19px;
+  }
+  .phone__page #content .block-why p {
+    font-size: 17px;
+  }
+  .phone__page #content .table_possible_operations > p {
+    font-size: 17px;
   }
   .phone__page #content .table_possible_operations .panel-group {
     display: block;
@@ -1278,12 +1304,13 @@ body {
   }
   .phone__page #content .table_possible_operations .panel-group .panel #mCSB_2_scrollbar_horizontal,
   .phone__page #content .table_possible_operations .panel-group .panel .mCSB_scrollTools {
-    top: 50%;
+    top: 0;
+    height: 100%;
   }
   .phone__page #content .table_possible_operations .panel-group .panel .mCSB_buttonLeft {
     height: 345px;
     width: 30px;
-    background: rgba(101, 153, 199, 0.5);
+    background: rgba(101, 153, 199, 0.7);
     opacity: 1;
     position: absolute;
     top: 50%;
@@ -1304,7 +1331,7 @@ body {
   .phone__page #content .table_possible_operations .panel-group .panel .mCSB_buttonRight {
     height: 345px;
     width: 30px;
-    background: rgba(101, 153, 199, 0.5);
+    background: rgba(101, 153, 199, 0.7);
     opacity: 1;
     position: absolute;
     top: 50%;
@@ -1321,6 +1348,10 @@ body {
     height: 35px;
     margin: -17px 0px 0 -10px;
     z-index: 10;
+  }
+  .phone__page #content .table_possible_operations .panel-group .panel .mCSB_4_scrollbar a {
+    height: 161px;
+    margin-top: -80px;
   }
   .phone__page #content .table_possible_operations .panel-group .panel .mCSB_draggerContainer {
     display: none;
