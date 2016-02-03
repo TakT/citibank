@@ -900,6 +900,9 @@ body {
   line-height: 1.153;
   margin: 0 0 6px;
 }
+.phone__page .panel-group {
+  display: none;
+}
 @media (min-width: 1200px) {
   .phone__page #content .content__img .content__img-content .content__img-title {
     color: #0458a0;
@@ -1102,7 +1105,10 @@ body {
     padding-top: 50px;
     width: 100%;
     padding-right: 18px;
-    left: 9px;
+    left: 0px;
+  }
+  .phone__page #content .content__img .content__img-content .content__img-title {
+    padding-left: 9px;
   }
   .phone__page #content .content__img .content__img-content .content__img-desc {
     display: block;
@@ -1113,6 +1119,7 @@ body {
     border-top: 0;
     border-bottom: 1px solid #d8d8d8;
     margin-bottom: 25px;
+    padding-left: 9px;
   }
   .phone__page #content .content__img .content__img-content .content__img-desc p {
     font-size: 14px;
@@ -1120,7 +1127,65 @@ body {
   .phone__page #content .content__img .content__img-content .content__img-desc span.phone {
     font-size: 14px;
   }
+  .phone__page #content .info-time {
+    text-align: center;
+    padding: 20px 23px;
+  }
+  .phone__page #content .info-time span.ico {
+    float: none;
+    margin: 0 0 28px;
+  }
+  .phone__page #content .info-time p {
+    text-align: left;
+  }
+  .phone__page #content .content__topline {
+    margin-left: 0;
+  }
+  .phone__page #content .sidebar__content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .phone__page #content .sidebar__left {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .phone__page #content .content__actions {
+    display: none;
+  }
+  .phone__page #content .table_working_hours,
+  .phone__page #content .table_possible_operations {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .phone__page #content .table-working_hours table {
+    width: 693px;
+  }
+  .phone__page #content .table-working_hours #mCSB_1_scrollbar_horizontal {
+    top: 50%;
+  }
+  .phone__page #content .table-working_hours .mCSB_buttonLeft {
+    height: 345px;
+    width: 30px;
+    background: #6599c7;
+    position: absolute;
+    top: 50%;
+    margin-top: -172px;
+  }
+  .phone__page #content .table-working_hours .mCSB_buttonRight {
+    height: 345px;
+    width: 30px;
+    background: #6599c7;
+    position: absolute;
+    top: 50%;
+    margin-top: -172px;
+  }
+  .phone__page #content .table-working_hours .mCSB_draggerContainer {
+    display: none;
+  }
+  .phone__page #content .table_possible_operations .panel-group {
+    display: block;
+  }
+  .phone__page #content .table_possible_operations .tabs_possible_operations {
     display: none;
   }
 }

@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 
         <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="stylesheet" href="./assets/css/jquery.mCustomScrollbar.min.css">
 
         <!--[if IE]>
         <script src="./assets/js/html5shiv.min.js"></script>
@@ -105,96 +106,98 @@
 						</div>
 						<div class="table_working_hours">
 							<h5>Таблица рабочих часов операторов CitiPhone</h5>
-							<table>
-								<thead>
-									<tr>
-										<td class="time">Время</td>
-										<td class="time-city"></td>
-										<td class="cities">Города</td>
-										<td class="timezone">Часовой пояс</td>
-										<td class="work-time">Часы работы<br> по местному<br> времени</td>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>USZ1</td>
-										<td>Калининградское</td>
-										<td>Калининград </td>
-										<td class="text-right">MSK-1 (UTC+2)</td>
-										<td class="text-right">7:00–19:00</td>
-									</tr>
-									<tr>
-										<td>MSK</td>
-										<td>Московское</td>
-										<td>Москва, Санкт-Петербург, <br>Ростов-на-Дону, Казань, Саратов, <br>Ульяновск, Волгоград, Нижний Новгород</td>
-										<td class="text-right">MSK-1 (UTC+3)</td>
-										<td class="text-right">8:00–20:00</td>
-									</tr>
-									<tr>
-										<td>SAMT</td>
-										<td>Самарское</td>
-										<td>Самара, Ижевск</td>
-										<td class="text-right">MSK+1 (UTC+4)</td>
-										<td class="text-right">9:00–21:00</td>
-									</tr>
-									<tr>
-										<td>YEKT</td>
-										<td>Екатеринбургское</td>
-										<td>Екатеринбург, Уфа, Оренбург, <br>Пермь, Нижневартовск, Тюмень</td>
-										<td class="text-right">MSK+2 (UTC+5)</td>
-										<td class="text-right">10:00–22:00</td>
-									</tr>
-									<tr>
-										<td>OMST</td>
-										<td>Омское</td>
-										<td>Новосибирск, Омск</td>
-										<td class="text-right">MSK+3 (UTC+6)</td>
-										<td class="text-right">11:00–23:00</td>
-									</tr>
-									<tr>
-										<td>KRAT</td>
-										<td>Красноярское</td>
-										<td>Красноярск, Норильск </td>
-										<td class="text-right">MSK+4 (UTC+7)</td>
-										<td class="text-right">12:00–24:00</td>
-									</tr>
-									<tr>
-										<td>IRKT</td>
-										<td>Иркутское</td>
-										<td>Иркутск, Чита</td>
-										<td class="text-right">MSK+5 (UTC+8)</td>
-										<td class="text-right">13:00–1:00</td>
-									</tr>
-									<tr>
-										<td>YAKT</td>
-										<td>Якутское</td>
-										<td>Благовещенск, Якутск </td>
-										<td class="text-right">MSK+6 (UTC+9)</td>
-										<td class="text-right">14:00–2:00</td>
-									</tr>
-									<tr>
-										<td>VLAT</td>
-										<td>Владивостокское</td>
-										<td>Южно-Сахалинск, Хабаровск, <br>Магадан </td>
-										<td class="text-right">MSK+7 (UTC+10)</td>
-										<td class="text-right">15:00–3:00</td>
-									</tr>
-									<tr>
-										<td>SRET</td>
-										<td>Среднеколымское</td>
-										<td>Среднеколымск, Северо-Курильск</td>
-										<td class="text-right">MSK+8 (UTC+11)</td>
-										<td class="text-right">16:00–4:00</td>
-									</tr>
-									<tr>
-										<td>PETT</td>
-										<td>Камчатское</td>
-										<td>Петропавловск-Камчатский</td>
-										<td class="text-right">MSK+9 (UTC+12)</td>
-										<td class="text-right">17:00–5:00</td>
-									</tr>
-								</tbody>
-							</table>
+							<div class="table-working_hours">
+								<table>
+									<thead>
+										<tr>
+											<td class="time">Время</td>
+											<td class="time-city"></td>
+											<td class="cities">Города</td>
+											<td class="timezone">Часовой пояс</td>
+											<td class="work-time">Часы работы<br> по местному<br> времени</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>USZ1</td>
+											<td>Калининградское</td>
+											<td>Калининград </td>
+											<td class="text-right">MSK-1 (UTC+2)</td>
+											<td class="text-right">7:00–19:00</td>
+										</tr>
+										<tr>
+											<td>MSK</td>
+											<td>Московское</td>
+											<td>Москва, Санкт-Петербург, <br>Ростов-на-Дону, Казань, Саратов, <br>Ульяновск, Волгоград, Нижний Новгород</td>
+											<td class="text-right">MSK-1 (UTC+3)</td>
+											<td class="text-right">8:00–20:00</td>
+										</tr>
+										<tr>
+											<td>SAMT</td>
+											<td>Самарское</td>
+											<td>Самара, Ижевск</td>
+											<td class="text-right">MSK+1 (UTC+4)</td>
+											<td class="text-right">9:00–21:00</td>
+										</tr>
+										<tr>
+											<td>YEKT</td>
+											<td>Екатеринбургское</td>
+											<td>Екатеринбург, Уфа, Оренбург, <br>Пермь, Нижневартовск, Тюмень</td>
+											<td class="text-right">MSK+2 (UTC+5)</td>
+											<td class="text-right">10:00–22:00</td>
+										</tr>
+										<tr>
+											<td>OMST</td>
+											<td>Омское</td>
+											<td>Новосибирск, Омск</td>
+											<td class="text-right">MSK+3 (UTC+6)</td>
+											<td class="text-right">11:00–23:00</td>
+										</tr>
+										<tr>
+											<td>KRAT</td>
+											<td>Красноярское</td>
+											<td>Красноярск, Норильск </td>
+											<td class="text-right">MSK+4 (UTC+7)</td>
+											<td class="text-right">12:00–24:00</td>
+										</tr>
+										<tr>
+											<td>IRKT</td>
+											<td>Иркутское</td>
+											<td>Иркутск, Чита</td>
+											<td class="text-right">MSK+5 (UTC+8)</td>
+											<td class="text-right">13:00–1:00</td>
+										</tr>
+										<tr>
+											<td>YAKT</td>
+											<td>Якутское</td>
+											<td>Благовещенск, Якутск </td>
+											<td class="text-right">MSK+6 (UTC+9)</td>
+											<td class="text-right">14:00–2:00</td>
+										</tr>
+										<tr>
+											<td>VLAT</td>
+											<td>Владивостокское</td>
+											<td>Южно-Сахалинск, Хабаровск, <br>Магадан </td>
+											<td class="text-right">MSK+7 (UTC+10)</td>
+											<td class="text-right">15:00–3:00</td>
+										</tr>
+										<tr>
+											<td>SRET</td>
+											<td>Среднеколымское</td>
+											<td>Среднеколымск, Северо-Курильск</td>
+											<td class="text-right">MSK+8 (UTC+11)</td>
+											<td class="text-right">16:00–4:00</td>
+										</tr>
+										<tr>
+											<td>PETT</td>
+											<td>Камчатское</td>
+											<td>Петропавловск-Камчатский</td>
+											<td class="text-right">MSK+9 (UTC+12)</td>
+											<td class="text-right">17:00–5:00</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 						</div>
 						<div class="info-important">
 							<span class="ico ico-important"></span>
@@ -205,7 +208,7 @@
 						</div>
 						<div class="table_possible_operations">
 							<h5>Полная таблица всех возможных операций с указанием каналов связи, через которые их можно совершить</h5>
-							<div>
+							<div class="tabs_possible_operations">
 							  <!-- Nav tabs -->
 							  <ul class="nav nav-tabs" role="tablist">
 							    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Дебетовые <br>карты</a></li>
@@ -313,6 +316,64 @@
 							    <div role="tabpanel" class="tab-pane" id="settings">4...</div>
 							  </div>
 							</div>
+							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							  <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingOne">
+							      <h4 class="panel-title">
+							        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							          Дебетовые карты
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							      <div class="panel-body">
+							        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingTwo">
+							      <h4 class="panel-title">
+							        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							          Кредитные карты
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							      <div class="panel-body">
+							        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingThree">
+							      <h4 class="panel-title">
+							        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							          Потребительский кредит
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							      <div class="panel-body">
+							        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingThree2">
+							      <h4 class="panel-title">
+							        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+							          Потребительский кредит
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseThree2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+							      <div class="panel-body">
+							        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							      </div>
+							    </div>
+							  </div>
+							</div>
 							<p>В автоматическом режиме система CitiPhone будет по-прежнему работать круглосуточно. <a href="#">Схема меню Системы Автоматического Банковского Обслуживания</a></p>
 						</div>
 						<div class="block-why">
@@ -338,6 +399,8 @@
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script type="text/javascript" src="./assets/js/bootstrap.tabs.min.js"></script>
+		<script type="text/javascript" src="./assets/js/bootstrap-collaps.min.js"></script>
+		<script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
 		<script type="text/javascript" src="./assets/js/template.js"></script>
 	</body>
 </html>

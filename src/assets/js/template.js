@@ -27,3 +27,28 @@ $( window ).resize(function() {
 		console.log('3');
 	};
 });
+
+(function($){
+	$(window).load(function(){
+		
+		$(".table-working_hours").mCustomScrollbar({
+			axis:"x",
+			scrollButtons:{enable:true},
+			theme:"3d",
+			scrollbarPosition:"outside",
+			snapAmount:120,
+			snapOffset:40
+		});
+		// $(".table-working_hours").mCustomScrollbar({
+		// 	scrollButtons:{enable:true,scrollType:"stepped"},
+		// 	keyboard:{scrollType:"stepped"},
+		// 	mouseWheel:{scrollAmount:188},
+		// 	theme:"rounded-dark",
+		// 	autoExpandScrollbar:true,
+		// 	snapAmount:188,
+		// 	snapOffset:65
+		// });
+		
+		
+	});
+})(jQuery);
