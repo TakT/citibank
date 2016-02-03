@@ -1323,18 +1323,44 @@ body {
 				.mCSB_buttonLeft {
 					height: 345px;
 					width: 30px;
-					background: #6599c7;
+					background: rgba(101, 153, 199, 0.5);
+		    		opacity: 1;
 					position: absolute;
 					top: 50%;
 					margin-top: -172px;
+					&:before {
+					    content: "";
+					    position: absolute;
+					    top: 50%;
+					    left: 50%;
+					    background: url('../images/ico.png') no-repeat;
+					    background-position: -48px -42px;
+					    width: 20px;
+					    height: 35px;
+					    margin: -17px 0px 0 -10px;
+					    z-index: 10;
+					}
 				}
 				.mCSB_buttonRight {
 					height: 345px;
 					width: 30px;
-					background: #6599c7;
+					background: rgba(101, 153, 199, 0.5);
+		    		opacity: 1;
 					position: absolute;
 					top: 50%;
 					margin-top: -172px;
+					&:before {
+					    content: "";
+					    position: absolute;
+					    top: 50%;
+					    left: 50%;
+					    background: url('../images/ico.png') no-repeat;
+					    background-position: -68px -42px;
+					    width: 20px;
+					    height: 35px;
+					    margin: -17px 0px 0 -10px;
+					    z-index: 10;
+					}
 				}
 				.mCSB_draggerContainer {
 					display: none;
@@ -1383,24 +1409,50 @@ body {
 						.panel-body {
 							border: 0;
 						}
-						#mCSB_2_scrollbar_horizontal {
+						#mCSB_2_scrollbar_horizontal, .mCSB_scrollTools  {
 							top: 50%;
 						}
 						.mCSB_buttonLeft {
 							height: 345px;
 							width: 30px;
-							background: #6599c7;
+							background: rgba(101, 153, 199, 0.5);
+				    		opacity: 1;
 							position: absolute;
 							top: 50%;
 							margin-top: -172px;
+							&:before {
+							    content: "";
+							    position: absolute;
+							    top: 50%;
+							    left: 50%;
+							    background: url('../images/ico.png') no-repeat;
+							    background-position: -48px -42px;
+							    width: 20px;
+							    height: 35px;
+							    margin: -17px 0px 0 -10px;
+							    z-index: 10;
+							}
 						}
 						.mCSB_buttonRight {
 							height: 345px;
 							width: 30px;
-							background: #6599c7;
+							background: rgba(101, 153, 199, 0.5);
+				    		opacity: 1;
 							position: absolute;
 							top: 50%;
 							margin-top: -172px;
+							&:before {
+							    content: "";
+							    position: absolute;
+							    top: 50%;
+							    left: 50%;
+							    background: url('../images/ico.png') no-repeat;
+							    background-position: -68px -42px;
+							    width: 20px;
+							    height: 35px;
+							    margin: -17px 0px 0 -10px;
+							    z-index: 10;
+							}
 						}
 						.mCSB_draggerContainer {
 							display: none;

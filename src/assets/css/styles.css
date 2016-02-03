@@ -1190,18 +1190,44 @@ body {
   .phone__page #content .table-working_hours .mCSB_buttonLeft {
     height: 345px;
     width: 30px;
-    background: #6599c7;
+    background: rgba(101, 153, 199, 0.5);
+    opacity: 1;
     position: absolute;
     top: 50%;
     margin-top: -172px;
   }
+  .phone__page #content .table-working_hours .mCSB_buttonLeft:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: url('../images/ico.png') no-repeat;
+    background-position: -48px -42px;
+    width: 20px;
+    height: 35px;
+    margin: -17px 0px 0 -10px;
+    z-index: 10;
+  }
   .phone__page #content .table-working_hours .mCSB_buttonRight {
     height: 345px;
     width: 30px;
-    background: #6599c7;
+    background: rgba(101, 153, 199, 0.5);
+    opacity: 1;
     position: absolute;
     top: 50%;
     margin-top: -172px;
+  }
+  .phone__page #content .table-working_hours .mCSB_buttonRight:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: url('../images/ico.png') no-repeat;
+    background-position: -68px -42px;
+    width: 20px;
+    height: 35px;
+    margin: -17px 0px 0 -10px;
+    z-index: 10;
   }
   .phone__page #content .table-working_hours .mCSB_draggerContainer {
     display: none;
@@ -1250,24 +1276,51 @@ body {
   .phone__page #content .table_possible_operations .panel-group .panel .panel-body {
     border: 0;
   }
-  .phone__page #content .table_possible_operations .panel-group .panel #mCSB_2_scrollbar_horizontal {
+  .phone__page #content .table_possible_operations .panel-group .panel #mCSB_2_scrollbar_horizontal,
+  .phone__page #content .table_possible_operations .panel-group .panel .mCSB_scrollTools {
     top: 50%;
   }
   .phone__page #content .table_possible_operations .panel-group .panel .mCSB_buttonLeft {
     height: 345px;
     width: 30px;
-    background: #6599c7;
+    background: rgba(101, 153, 199, 0.5);
+    opacity: 1;
     position: absolute;
     top: 50%;
     margin-top: -172px;
   }
+  .phone__page #content .table_possible_operations .panel-group .panel .mCSB_buttonLeft:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: url('../images/ico.png') no-repeat;
+    background-position: -48px -42px;
+    width: 20px;
+    height: 35px;
+    margin: -17px 0px 0 -10px;
+    z-index: 10;
+  }
   .phone__page #content .table_possible_operations .panel-group .panel .mCSB_buttonRight {
     height: 345px;
     width: 30px;
-    background: #6599c7;
+    background: rgba(101, 153, 199, 0.5);
+    opacity: 1;
     position: absolute;
     top: 50%;
     margin-top: -172px;
+  }
+  .phone__page #content .table_possible_operations .panel-group .panel .mCSB_buttonRight:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: url('../images/ico.png') no-repeat;
+    background-position: -68px -42px;
+    width: 20px;
+    height: 35px;
+    margin: -17px 0px 0 -10px;
+    z-index: 10;
   }
   .phone__page #content .table_possible_operations .panel-group .panel .mCSB_draggerContainer {
     display: none;
