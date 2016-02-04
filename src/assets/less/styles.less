@@ -766,6 +766,12 @@ body {
 			}
 		}
 	}
+	li.nav-tab-min-text {
+		line-height: 31px;
+		a {
+			line-height: 31px;
+		}
+	}
 	.table_working_hours {
 		h5 {
 			font-size: 18px;
@@ -876,6 +882,7 @@ body {
 		.nav-tabs {
 			li {
 				a {
+					height: 51px;
 					font-size: 13px;
 					font-family: "Arial";
 					color: rgb(4, 88, 160);
@@ -883,9 +890,11 @@ body {
 					line-height: 1.154;
 					text-align: center;
 					margin-right: 6px;
+					min-width: 137px;
 				}
 				&:not(.active) {
 					a {
+						height: 51px;
 						font-size: 13px;
 						font-family: "Arial";
 						color: rgb(255, 255, 255);
@@ -897,6 +906,12 @@ body {
 						background-image: -moz-linear-gradient( 90deg, rgb(45,116,175) 0%, rgb(78,138,191) 56%, rgb(111,159,206) 100%);
 						background-image: -webkit-linear-gradient( 90deg, rgb(45,116,175) 0%, rgb(78,138,191) 56%, rgb(111,159,206) 100%);
 						background-image: -ms-linear-gradient( 90deg, rgb(45,116,175) 0%, rgb(78,138,191) 56%, rgb(111,159,206) 100%);
+					}
+				}
+				&.nav-tab-min-text {
+					line-height: 31px;
+					a {
+						line-height: 31px;
 					}
 				}
 			}

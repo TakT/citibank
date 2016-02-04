@@ -715,6 +715,12 @@ body {
   color: #333333;
   line-height: 1.334;
 }
+.phone__page li.nav-tab-min-text {
+  line-height: 31px;
+}
+.phone__page li.nav-tab-min-text a {
+  line-height: 31px;
+}
 .phone__page .table_working_hours h5 {
   font-size: 18px;
   font-family: "Arial";
@@ -814,6 +820,7 @@ body {
   text-decoration: none;
 }
 .phone__page .table_possible_operations .nav-tabs li a {
+  height: 51px;
   font-size: 13px;
   font-family: "Arial";
   color: #0458a0;
@@ -821,8 +828,10 @@ body {
   line-height: 1.154;
   text-align: center;
   margin-right: 6px;
+  min-width: 137px;
 }
 .phone__page .table_possible_operations .nav-tabs li:not(.active) a {
+  height: 51px;
   font-size: 13px;
   font-family: "Arial";
   color: #ffffff;
@@ -834,6 +843,12 @@ body {
   background-image: -moz-linear-gradient(90deg, #2d74af 0%, #4e8abf 56%, #6f9fce 100%);
   background-image: -webkit-linear-gradient(90deg, #2d74af 0%, #4e8abf 56%, #6f9fce 100%);
   background-image: -ms-linear-gradient(90deg, #2d74af 0%, #4e8abf 56%, #6f9fce 100%);
+}
+.phone__page .table_possible_operations .nav-tabs li.nav-tab-min-text {
+  line-height: 31px;
+}
+.phone__page .table_possible_operations .nav-tabs li.nav-tab-min-text a {
+  line-height: 31px;
 }
 .phone__page .table_possible_operations .tab-content {
   border: 1px solid #dadada;
