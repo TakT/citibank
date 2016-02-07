@@ -35,7 +35,7 @@ $( window ).resize(function() {
 			axis:"x",
 			scrollButtons:{enable:true},
 			theme:"3d",
-			scrollbarPosition:"outside",
+			documentTouchScroll: "enable",
 			mouseWheel:{enable: false},
 			snapAmount:120,
 			snapOffset:40
@@ -44,7 +44,7 @@ $( window ).resize(function() {
 			axis:"x",
 			scrollButtons:{enable:true},
 			theme:"3d",
-			scrollbarPosition:"outside",
+			// scrollbarPosition:"outside",
 			mouseWheel:{enable: false},
 			snapAmount:120,
 			snapOffset:40

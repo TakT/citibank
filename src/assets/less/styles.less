@@ -388,7 +388,7 @@ body {
 				line-height: 44px;
 				font-family: @fontBold;
 				padding-left: 4px;
-				padding-right: 70px;
+				padding-right: 10px;
 				margin-bottom: 25px;
 			}
 
@@ -734,7 +734,7 @@ body {
 	.info-time {
 		margin: 40px 0;
 		border: 1px solid #3679b3;
-		padding: 30px 60px 28px 30px;
+		padding: 30px 50px 28px 30px;
 		span.ico {
 			margin-right: 30px;
 		    float: left;
@@ -773,6 +773,17 @@ body {
 		}
 	}
 	.table_working_hours {
+		&.table-working_hours-eng {
+			table {
+				thead {
+					tr {
+						td {
+							text-transform: uppercase;
+						}
+					}
+				}
+			}
+		}
 		h5 {
 			font-size: 18px;
 			font-family: "Arial";
@@ -781,6 +792,7 @@ body {
 			line-height: 1.556;
 		}
 		table {
+			width: 100%;
 			thead {
 				tr {
 					td {
@@ -1005,7 +1017,7 @@ body {
 			    /* line-height: 44px; */
 			    font-family: 'InterstateCyr-Bold', Helvetica, Arial;
 			    padding-left: 4px;
-		        padding-right: 20px;
+		        padding-right: 10px;
 	    		margin-bottom: 9px;
 			}
 			.content__img-content .content__img-desc {
@@ -1247,6 +1259,8 @@ body {
 		#content {
 			.content__img {
 				margin-bottom: 125px;
+				margin-left: -8px;
+				margin-right: -8px;
 				.content__img-content {
 				    top: 0;
 				    bottom: 0;
@@ -1268,10 +1282,10 @@ body {
 					    margin-bottom: 25px;
 					    padding-left: 9px;
     					p {
-    						font-size: 14px;
+    						font-size: 11px;
     					}
     					span.phone {						    
-    						font-size: 14px;
+    						font-size: 11px;
 						}	
 					}
 				}
@@ -1299,9 +1313,9 @@ body {
 				}
 			}
 			.info-important {
-			    margin: 35px 0;
+		        margin: 35px 0;
 			    background: #f4f4f4;
-			    padding: 20px 0px;
+			    padding: 20px 9px;
 			    text-align: center;
 			    span.ico {
 				    margin: 0 0 20px;
@@ -1321,8 +1335,8 @@ body {
 				margin-left: 0;
 			}
 			.sidebar__content {
-			    padding-left: 15px;
-			    padding-right: 15px;
+		        padding-left: 8px;
+				padding-right: 8px;
 			}
 			.sidebar__left {
 			    margin-left: 0px; 
@@ -1331,7 +1345,7 @@ body {
 			.content__actions {
 				display: none;
 			}
-			.table_working_hours, .table_possible_operations {
+			.table_working_hours{
 				max-width: 100%;
 				overflow: hidden;
 				h5 {
@@ -1346,7 +1360,7 @@ body {
 			}
 			.table-working_hours {
 				table {
-					width: 693px;
+					width: 793px;
 				}
 				#mCSB_1_scrollbar_horizontal {
 					height: 100%;
@@ -1409,6 +1423,12 @@ body {
 				}
 			}
 			.table_possible_operations {
+			    padding: 0;
+			    overflow: hidden;
+				h5 {
+					font-size: 23px;
+					line-height: 1.1;
+				}
 				> p {
 					font-size: 17px;
 				}
@@ -1453,6 +1473,7 @@ body {
 						}
 						.panel-body {
 							border: 0;
+						    padding: 10px 0;
 						}
 						#mCSB_2_scrollbar_horizontal, .mCSB_scrollTools  {
 							top: 0;
@@ -1520,7 +1541,17 @@ body {
 			}
 			.block_table_possible_operations {
 				table {
-					width: 736px;
+					width: 635px;
+					tbody tr td:first-child {
+					    padding-right: 10px;
+					}
+					td {
+						padding-left: 10px;
+					}
+					td.type_transaction {
+					    width: 200px;
+					    text-align: left;
+					}
 				}
 			}
 		}

@@ -350,7 +350,7 @@ body {
   line-height: 44px;
   font-family: 'InterstateCyr-Bold', Helvetica, Arial;
   padding-left: 4px;
-  padding-right: 70px;
+  padding-right: 10px;
   margin-bottom: 25px;
 }
 #content .content__img .content__img-content .content__img-desc {
@@ -683,7 +683,7 @@ body {
 .phone__page .info-time {
   margin: 40px 0;
   border: 1px solid #3679b3;
-  padding: 30px 60px 28px 30px;
+  padding: 30px 50px 28px 30px;
 }
 .phone__page .info-time span.ico {
   margin-right: 30px;
@@ -721,12 +721,18 @@ body {
 .phone__page li.nav-tab-min-text a {
   line-height: 31px;
 }
+.phone__page .table_working_hours.table-working_hours-eng table thead tr td {
+  text-transform: uppercase;
+}
 .phone__page .table_working_hours h5 {
   font-size: 18px;
   font-family: "Arial";
   color: #0458a0;
   font-weight: bold;
   line-height: 1.556;
+}
+.phone__page .table_working_hours table {
+  width: 100%;
 }
 .phone__page .table_working_hours table thead tr td {
   font-size: 13px;
@@ -925,7 +931,7 @@ body {
     /* line-height: 44px; */
     font-family: 'InterstateCyr-Bold', Helvetica, Arial;
     padding-left: 4px;
-    padding-right: 20px;
+    padding-right: 10px;
     margin-bottom: 9px;
   }
   .phone__page #content .content__img-content .content__img-desc {
@@ -1113,6 +1119,8 @@ body {
   }
   .phone__page #content .content__img {
     margin-bottom: 125px;
+    margin-left: -8px;
+    margin-right: -8px;
   }
   .phone__page #content .content__img .content__img-content {
     top: 0;
@@ -1137,10 +1145,10 @@ body {
     padding-left: 9px;
   }
   .phone__page #content .content__img .content__img-content .content__img-desc p {
-    font-size: 14px;
+    font-size: 11px;
   }
   .phone__page #content .content__img .content__img-content .content__img-desc span.phone {
-    font-size: 14px;
+    font-size: 11px;
   }
   .phone__page #content p {
     font-size: 17px;
@@ -1165,7 +1173,7 @@ body {
   .phone__page #content .info-important {
     margin: 35px 0;
     background: #f4f4f4;
-    padding: 20px 0px;
+    padding: 20px 9px;
     text-align: center;
   }
   .phone__page #content .info-important span.ico {
@@ -1185,8 +1193,8 @@ body {
     margin-left: 0;
   }
   .phone__page #content .sidebar__content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
   .phone__page #content .sidebar__left {
     margin-left: 0px;
@@ -1195,13 +1203,11 @@ body {
   .phone__page #content .content__actions {
     display: none;
   }
-  .phone__page #content .table_working_hours,
-  .phone__page #content .table_possible_operations {
+  .phone__page #content .table_working_hours {
     max-width: 100%;
     overflow: hidden;
   }
-  .phone__page #content .table_working_hours h5,
-  .phone__page #content .table_possible_operations h5 {
+  .phone__page #content .table_working_hours h5 {
     font-size: 23px;
     line-height: 1.1;
   }
@@ -1211,7 +1217,7 @@ body {
     color: #333333;
   }
   .phone__page #content .table-working_hours table {
-    width: 693px;
+    width: 793px;
   }
   .phone__page #content .table-working_hours #mCSB_1_scrollbar_horizontal {
     height: 100%;
@@ -1270,6 +1276,14 @@ body {
   .phone__page #content .block-why p {
     font-size: 17px;
   }
+  .phone__page #content .table_possible_operations {
+    padding: 0;
+    overflow: hidden;
+  }
+  .phone__page #content .table_possible_operations h5 {
+    font-size: 23px;
+    line-height: 1.1;
+  }
   .phone__page #content .table_possible_operations > p {
     font-size: 17px;
   }
@@ -1316,6 +1330,7 @@ body {
   }
   .phone__page #content .table_possible_operations .panel-group .panel .panel-body {
     border: 0;
+    padding: 10px 0;
   }
   .phone__page #content .table_possible_operations .panel-group .panel #mCSB_2_scrollbar_horizontal,
   .phone__page #content .table_possible_operations .panel-group .panel .mCSB_scrollTools {
@@ -1375,7 +1390,17 @@ body {
     display: none;
   }
   .phone__page #content .block_table_possible_operations table {
-    width: 736px;
+    width: 635px;
+  }
+  .phone__page #content .block_table_possible_operations table tbody tr td:first-child {
+    padding-right: 10px;
+  }
+  .phone__page #content .block_table_possible_operations table td {
+    padding-left: 10px;
+  }
+  .phone__page #content .block_table_possible_operations table td.type_transaction {
+    width: 200px;
+    text-align: left;
   }
 }
 @media (max-width: 620px) {
